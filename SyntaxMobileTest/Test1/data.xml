@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <compiler-settings>
+    <output-path path="\Windows Mobile 6 Professional SDK (ARMV4I)\Debug\data.edf" />
+    <asset-path path="\AssetList.h" />
+    <asset-section section="panels" />
+  </compiler-settings>
+  <textures>
+    <texture id="1653b283-3c17-45e6-a753-571b83c39f6b" name="spencer" filename="/Textures/spencer.dds" />
+  </textures>
+  <fonts></fonts>
+  <labels></labels>
+  <materials>
+    <material id="ce51c25e-c930-400d-b71e-e951850bd4f7" name="spencer" effect="ColorKey" color_texture_id="1653b283-3c17-45e6-a753-571b83c39f6b" colorkey="255 0 255 0" />
+  </materials>
+  <panels>
+    <panel id="507A093A-695C-44c6-A6E2-4294796F586D" name="panel1" anchor_left="true" anchor_right="true"
+           anchor_top="true" anchor_bottom="false" dimensions="0 0 0 75" use_bg_texture="true"
+           bg_texture_id="1653b283-3c17-45e6-a753-571b83c39f6b" bg_color="255 0 0 255" z="5"/>
+    <panel id="2E20DCC4-0F29-4135-AFFD-62047515D935" name="panel2" anchor_left="true" anchor_right="true"
+           anchor_top="false" anchor_bottom="true" dimensions="0 0 0 65" use_bg_texture="false"
+           bg_texture_id="00000000-0000-0000-0000-000000000000" bg_color="0 0 255 128" z="2"/>
+  </panels>
+</data>

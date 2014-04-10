@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <compiler-settings>
+    <output-path path="C:\source\Syntax Engine\SyntaxGraphicsTest\Test2\debug\data.edf"/>
+    <output-path path="C:\source\Syntax Engine\SyntaxGraphicsTest\Test2\release\data.edf"/>
+  </compiler-settings>
+	<fonts>
+		<font name="font" height="14" width="10" weight="700" italic="false" charset="ANSI" facename="ariel"/>
+	</fonts>
+  <labels>
+    <label name="stdblock" font="font" text="fps"/>
+	</labels>
+	<effects>
+		<effect name="basic-sprite" filename="effects\sprite.fx"/>
+	</effects>
+	<textures>
+		<texture name="photo" filename="textures\lakus.png" compression="DXT1"/>
+		<texture name="ship" filename="textures\gundam.png" compression="DXT1"/>
+    <texture name="knightwalk" filename="textures\knightWalking.png" compression="DXT5"/>
+    <texture name="knightrun" filename="textures\knightRunning.png" compression="DXT5"/>
+	</textures>
+  <materials>
+    <material name="photomat" effect="basic-sprite" texture0="photo"/>
+    <material name="shipmat" effect="basic-sprite" texture0="ship"/>
+    <material name="walkmat" effect="basic-sprite" texture0="knightwalk"/>
+    <material name="runmat" effect="basic-sprite" texture0="knightrun"/>
+  </materials>
+  <sprites>
+		<sprite name="photo">
+			<frameset name="only" material="photomat" framewidth="320" fps="0"/>
+		</sprite>
+		<sprite name="ship">
+			<frameset name="only" material="shipmat" framewidth="640" fps="10"/>
+		</sprite>
+		<sprite name="knight">
+			<frameset name="walk" material="walkmat" framewidth="128" fps="8"/>
+			<frameset name="run" material="runmat" framewidth="128" fps="15"/>
+		</sprite>
+	</sprites>
+</data>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<data>
+  <compiler-settings>
+    <output-path path="\Debug\test.edf"/>
+    <asset-path path="\Debug\AssetList.h" />
+    <asset-section section="panels" />
+  </compiler-settings>
+  <panels>
+    <panel id="507A093A-695C-44c6-A6E2-4294796F586D" name="panel1" anchor_left="true" anchor_right="true"
+           anchor_top="true" anchor_bottom="false" dimensions="0 0 0 240" use_bg_texture="false"
+           bg_texture_id="00000000-0000-0000-0000-000000000000" bg_color="255 0 0 255" z="5"/>
+    <panel id="2E20DCC4-0F29-4135-AFFD-62047515D935" name="panel2" anchor_left="true" anchor_right="true"
+           anchor_top="false" anchor_bottom="true" dimensions="0 0 0 240" use_bg_texture="false"
+           bg_texture_id="00000000-0000-0000-0000-000000000000" bg_color="0 0 255 128" z="2"/>
+  </panels>
+</data>

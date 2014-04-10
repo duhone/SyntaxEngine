@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data>
+  <compiler-settings>
+    <output-path path="C:\source\Syntax Engine\SyntaxGraphicsTest\Test1\debug\data.edf"/>
+    <output-path path="C:\source\Syntax Engine\SyntaxGraphicsTest\Test1\release\data.edf"/>
+  </compiler-settings>
+  <effects></effects>
+  <textures></textures>
+  <materials></materials>
+  <sprites></sprites>
+  <fonts>
+    <font name="smallfont" height="14" width="12" weight="400" italic="false" charset="ANSI" facename="ariel"/>
+    <font name="bigfont" height="36" width="24" weight="700" italic="false" charset="ANSI" facename="ariel"/>
+    <font name="japfont" height="36" width="14" weight="400" italic="false" charset="CHINESEBIG5" facename="ariel"/>
+    <font name="rusfont" height="36" width="16" weight="400" italic="false" charset="RUSSIAN" facename="ariel"/>
+    <font name="chifont" height="36" width="16" weight="400" italic="false" charset="CHINESEBIG5" facename="ariel"/>
+  </fonts>
+  <labels>
+    <label name="statblock" font="smallfont" text="fps" anchorleft="true" anchortop="true"/>
+    <label name="largeblock" font="bigfont" text="fps" anchorleft="true" anchortop="true"/>
+    <label name="japblock" font="japfont" text="fps" anchorleft="true" anchortop="true"/>
+    <label name="rusblock" font="rusfont" text="fps" anchorleft="true" anchortop="true"/>
+    <label name="chiblock" font="chifont" text="fps" anchorleft="true" anchortop="true"/>
+    <label name="anchorblock" font="smallfont" text="Anchored top left" anchorleft="true" anchortop="true"/>
+  </labels>
+</data>

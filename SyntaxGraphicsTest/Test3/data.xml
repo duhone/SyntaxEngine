@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <compiler-settings>
+    <output-path path="C:\source\Syntax Engine\SyntaxGraphicsTest\Test3\debug\data.edf"/>
+    <output-path path="C:\source\Syntax Engine\SyntaxGraphicsTest\Test3\release\data.edf"/>
+  </compiler-settings>
+	<fonts>
+		<font name="font" height="14" width="10" weight="700" italic="false" charset="ANSI" facename="ariel"/>
+	</fonts>
+  <labels>
+		<label name="stdblock" font="font" text="fps"/>
+	</labels>
+	<effects>
+		<effect name="basic-sprite" filename="effects\sprite.fx"/>
+    <effect name="colorkey-perpixelz" filename="effects\colorkey_height.fx"/>
+    <effect name="quality" filename="effects\quality.fx"/>
+    <effect name="twirl" filename="effects\twirl.fx"/>
+    <effect name="light" filename="effects\light.fx"/>
+	</effects>
+	<textures>
+    <texture name="square" filename="textures\square.png" compression="DXT5"/>
+    <texture name="bar" filename="textures\bar.png" compression="RGB"/>
+    <texture name="lakus" filename="textures\lakus.png" compression="DXT1"/>
+    <texture name="light" filename="textures\White.png" compression="DXT5"/>
+	</textures>
+  <materials>
+    <material name="squaremat" effect="colorkey-perpixelz" texture0="square"/>
+    <material name="barmat" effect="colorkey-perpixelz" texture0="bar"/>
+    <material name="squareqmat" effect="quality" texture0="square"/>
+    <material name="barqmat" effect="quality" texture0="bar"/>
+    <material name="twirlmat" effect="twirl" texture0="lakus"/>
+    <material name="lakusmat" effect="light" texture0="lakus"/>
+    <material name="lightmat" effect="basic-sprite" texture0="light"/>
+  </materials>
+	<sprites>
+		<sprite name="square">
+			<frameset name="only" material="squaremat" framewidth="64" fps="0"/>
+		</sprite>
+		<sprite name="bar">
+			<frameset name="only" material="barmat" framewidth="128" fps="10"/>
+		</sprite>
+    <sprite name="squarequality">
+      <frameset name="only" material="squareqmat" framewidth="64" fps="0"/>
+    </sprite>
+    <sprite name="barquality">
+      <frameset name="only" material="barqmat" framewidth="128" fps="10"/>
+    </sprite>
+    <sprite name="twirl">
+      <frameset name="only" material="twirlmat" framewidth="256" fps="10"/>
+    </sprite>
+    <sprite name="lakus">
+      <frameset name="only" material="lakusmat" framewidth="256" fps="10"/>
+    </sprite>
+    <sprite name="light">
+      <frameset name="only" material="lightmat" framewidth="64" fps="10"/>
+    </sprite>
+	</sprites>
+</data>

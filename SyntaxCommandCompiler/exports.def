@@ -1,0 +1,3 @@
+LIBRARY	"SyntaxCommandCompiler"
+EXPORTS
+	GetHandlers

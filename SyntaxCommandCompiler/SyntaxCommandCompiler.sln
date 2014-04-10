@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SyntaxCommandCompiler", "SyntaxCommandCompiler.vcproj", "{D1AD23DD-DDAE-4C4E-A961-7C6D80DD38F0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{44405453-3013-4EDF-BCFC-1EF334FA6AD0} = {44405453-3013-4EDF-BCFC-1EF334FA6AD0}
+		{8115E85F-CF57-4E07-9CA6-D05072440864} = {8115E85F-CF57-4E07-9CA6-D05072440864}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Utility", "..\Utility\Utility.vcproj", "{8115E85F-CF57-4E07-9CA6-D05072440864}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SyntaxCompilerLib", "..\SyntaxCompilerLib\SyntaxCompilerLib.vcproj", "{44405453-3013-4EDF-BCFC-1EF334FA6AD0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8115E85F-CF57-4E07-9CA6-D05072440864} = {8115E85F-CF57-4E07-9CA6-D05072440864}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1AD23DD-DDAE-4C4E-A961-7C6D80DD38F0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D1AD23DD-DDAE-4C4E-A961-7C6D80DD38F0}.Debug|Win32.Build.0 = Debug|Win32
+		{D1AD23DD-DDAE-4C4E-A961-7C6D80DD38F0}.Release|Win32.ActiveCfg = Release|Win32
+		{D1AD23DD-DDAE-4C4E-A961-7C6D80DD38F0}.Release|Win32.Build.0 = Release|Win32
+		{8115E85F-CF57-4E07-9CA6-D05072440864}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8115E85F-CF57-4E07-9CA6-D05072440864}.Debug|Win32.Build.0 = Debug|Win32
+		{8115E85F-CF57-4E07-9CA6-D05072440864}.Release|Win32.ActiveCfg = Release|Win32
+		{8115E85F-CF57-4E07-9CA6-D05072440864}.Release|Win32.Build.0 = Release|Win32
+		{44405453-3013-4EDF-BCFC-1EF334FA6AD0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44405453-3013-4EDF-BCFC-1EF334FA6AD0}.Debug|Win32.Build.0 = Debug|Win32
+		{44405453-3013-4EDF-BCFC-1EF334FA6AD0}.Release|Win32.ActiveCfg = Release|Win32
+		{44405453-3013-4EDF-BCFC-1EF334FA6AD0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

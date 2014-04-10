@@ -1,0 +1,74 @@
+﻿<data>
+  <compiler-settings>
+    <output-path path="C:\source\Syntax Engine\SyntaxGraphicsTest\Test4\Debug\data.edf"/>
+    <output-path path="C:\source\Syntax Engine\SyntaxGraphicsTest\Test4\Release\data.edf"/>
+  </compiler-settings>
+  <fonts>
+    <font name="testfont" height="10" width="10" weight="700" italic="false" charset="ANSI" facename="ariel"/>
+    <font name="largefont" height="16" width="16" weight="700" italic="false" charset="ANSI" facename="ariel"/>
+  </fonts>
+  <labels>
+    <label name="stdblock" font="testfont" text="This is a test of the duhon3d graphics system"/>
+    <label name="largeblock" font="largefont" text="This is a test of the duhon3d graphics system"/>
+  </labels>
+  <effects>
+    <effect name="basic-sprite" filename="effects\sprite.fx"/>
+    <effect name="tilefx" filename="effects\TileMap.fx"/>
+  </effects>
+  <textures>
+    <texture name="grass" filename="textures\Grass.png" compression="DXT1"/>
+    <texture name="tilemap0" filename="textures\tilemap0.dds" compression="rgba"/>
+    <texture name="roads" filename="textures\roads.png" compression="DXT5"/>
+    <texture name="tilemap1" filename="textures\tilemap1.dds" compression="rgba"/>
+    <texture name="buildings" filename="textures\buildings.png" compression="DXT5"/>
+    <texture name="tilemap2" filename="textures\tilemap2.dds" compression="rgba"/>
+    <texture name="trees" filename="textures\trees.png" compression="DXT5"/>
+    <texture name="tilemap3" filename="textures\tilemap3.dds" compression="rgba"/>
+    <texture name="lavabeastwalkn" filename="textures\LavaBeastWalkN.png" compression="DXT5"/>
+    <texture name="lavabeastwalkne" filename="textures\LavaBeastWalkNE.png" compression="DXT5"/>
+    <texture name="lavabeastwalke" filename="textures\LavaBeastWalkE.png" compression="DXT5"/>
+    <texture name="lavabeastwalkse" filename="textures\LavaBeastWalkSE.png" compression="DXT5"/>
+    <texture name="lavabeastwalks" filename="textures\LavaBeastWalkS.png" compression="DXT5"/>
+    <texture name="lavabeastwalksw" filename="textures\LavaBeastWalkSW.png" compression="DXT5"/>
+    <texture name="lavabeastwalkw" filename="textures\LavaBeastWalkW.png" compression="DXT5"/>
+    <texture name="lavabeastwalknw" filename="textures\LavaBeastWalkNW.png" compression="DXT5"/>
+  </textures>
+  <materials>
+    <material name="grass" effect="tilefx" texture0="grass" texture1="tilemap0" tilesize="1 1 0.015625 0.0078125"/>
+    <material name="roads" effect="tilefx" texture0="roads" texture1="tilemap1" tilesize="0.25 1 0.015625 0.0009765625"/>
+    <material name="buildings" effect="tilefx" texture0="buildings" texture1="tilemap2" tilesize="0.2 1 0.015625 0.000390625"/>
+    <material name="trees" effect="tilefx" texture0="trees" texture1="tilemap3" tilesize="0.1666667 1 0.015625 0.00065104167"/>
+    <material name="lavabeastwalkn" effect="basic-sprite" texture0="lavabeastwalkn"/>
+    <material name="lavabeastwalkne" effect="basic-sprite" texture0="lavabeastwalkne"/>
+    <material name="lavabeastwalke" effect="basic-sprite" texture0="lavabeastwalke"/>
+    <material name="lavabeastwalkse" effect="basic-sprite" texture0="lavabeastwalkse"/>
+    <material name="lavabeastwalks" effect="basic-sprite" texture0="lavabeastwalks"/>
+    <material name="lavabeastwalksw" effect="basic-sprite" texture0="lavabeastwalksw"/>
+    <material name="lavabeastwalkw" effect="basic-sprite" texture0="lavabeastwalkw"/>
+    <material name="lavabeastwalknw" effect="basic-sprite" texture0="lavabeastwalknw"/>
+  </materials>
+  <sprites>
+    <sprite name="tile0">
+      <frameset name="only" material="grass" framewidth="64" fps="0"/>
+    </sprite>
+    <sprite name="tile1">
+      <frameset name="only" material="roads" framewidth="64" fps="0"/>
+    </sprite>
+    <sprite name="tile2">
+      <frameset name="only" material="buildings" framewidth="64" fps="0"/>
+    </sprite>
+    <sprite name="tile3">
+      <frameset name="only" material="trees" framewidth="64" fps="0"/>
+    </sprite>
+    <sprite name="lavabeast">
+      <frameset name="north" material="lavabeastwalkn" framewidth="96" fps="10"/>
+      <frameset name="northeast" material="lavabeastwalkne" framewidth="96" fps="10"/>
+      <frameset name="east" material="lavabeastwalke" framewidth="96" fps="10"/>
+      <frameset name="southeast" material="lavabeastwalkse" framewidth="96" fps="10"/>
+      <frameset name="south" material="lavabeastwalks" framewidth="96" fps="10"/>
+      <frameset name="southwest" material="lavabeastwalksw" framewidth="96" fps="10"/>
+      <frameset name="west" material="lavabeastwalkw" framewidth="96" fps="10"/>
+      <frameset name="northwest" material="lavabeastwalknw" framewidth="96" fps="10"/>
+    </sprite>
+  </sprites>
+</data>

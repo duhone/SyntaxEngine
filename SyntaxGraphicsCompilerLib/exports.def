@@ -1,0 +1,4 @@
+LIBRARY	"SyntaxGraphicsCompilerLib"
+EXPORTS
+	GetHandlers
+	SetCompiler

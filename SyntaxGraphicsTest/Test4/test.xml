@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<data>
+  <compiler-settings>
+    <output-path path="C:\source\graphics engine test apps\Test4\Debug\test.edf"/>
+    <output-path path="C:\source\graphics engine test apps\Test4\Release\test.edf"/>
+  </compiler-settings>
+  <fonts>
+    <font name="testfont" height="10" width="10" weight="bold" italic="false" facename="ariel"/>
+  </fonts>
+  <labels>
+    <label name="txtblock1" font="testfont" text="This is a test of the duhon3d graphics system"/>
+  </labels>
+  <effects>
+    <effect name="basic-sprite" filename="C:\source\SyntaxCompiler\effects\sprite.fx"/>
+  </effects>
+</data>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <compiler-settings>
+    <output-path path="\data.edf" />
+    <asset-path path="\AssetList.h" />
+    <asset-section section="textures" />
+    <asset-section section="materials" />
+    <asset-section section="panels" />
+  </compiler-settings>
+  <textures></textures>
+  <materials></materials>
+  <panels></panels>
+</data>
